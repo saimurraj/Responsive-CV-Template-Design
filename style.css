@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #eee;
+    font-family: 'Roboto', sans-serif;
+}
+/* style the Contraner Section */
+.container{
+    max-width: 1000px;
+    background-color: #E4F9F5;
+    margin: 0 auto;
+    padding: 20px;
+}
+/* style the Header Section */
+header{
+    overflow: hidden;
+}
+.profile-pic{
+    width: 100px;
+    height: 120px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    float: left;
+}
+.header-bio{
+    float: left;
+    padding: 30px;
+}
+h1, h2, h3, h4, h5, h6{
+    color: #11999e;
+}
+.header-contract{
+    float: right;
+    padding: 20px;
+}
+.header-contract a{
+    text-decoration: none;
+    font-weight: bold;
+    column-rule: teal;
+}
+
+.header-contract a:link,
+.header-contract a:visited{
+    color: teal;
+}
+.header-contract a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+.cleade-div{
+    clear: both;
+}
+hr{
+    border: 3px solid black;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+/* End The Header Section */
+
+/* Reuseable Companatent Style */
+.reuseable-section{
+    display: flex;
+}
+.reuseable-left{
+    width: 30%;
+    margin: 10px;
+}
+
+.reuseable-right{
+    width: 70%;
+    margin: 10px;
+    font-size: 15px;
+    font-weight: normal;
+}
+/* Common horizontal Rule */
+hr.common-hr{
+    
+    border: 1px solid black;
+    -webkit-border: 1px solid black;
+    -moz-border: 1px solid black;
+    width: 100%;
+    border-bottom: none;
+    -webkit-border-buttom: none;
+    -moz-border-buttom: none;
+    margin: 20px auto;
+}
+/* Reuseable style section End */
+/* Start the education section */
+.education-section{
+    display: flex;
+}
+.edu-section-left{
+    width: 30%;
+    margin: 10px;
+    float: left;
+}
+.bsc{
+    float: left;
+    width: 35%;
+    margin: 10px;
+    -right: 20px;
+}
+.bsc a{
+    text-decoration: none;
+    color: teal;
+}
+.bsc a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+.msc{
+    float: right;
+    width: 35%;
+    margin: 10px;
+}
+.msc a{
+    text-decoration: none;
+    color: teal;
+}
+.msc a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+/* End the education section */
+/* start the Footer section */
+footer{
+    text-align: center;
+    font-size: 30px;
+    background-color: black;
+    border-radius: 5px;
+}
+a .fa-brands{
+    display: inline-block;
+    padding: 20px;
+    color: #fff; 
+}
+footer a .fa-brands:hover{
+    color: teal;
+    transform: rotate(360deg);
+    transition: 1s;
+}
+/* End the Footer section */
